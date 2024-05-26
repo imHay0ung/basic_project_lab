@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3311634229",
+    "project_id": "basic-project-lab-40419",
+    "storage_bucket": "basic-project-lab-40419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3311634229:android:963e6805cb30c413622e7c",
+        "android_client_info": {
+          "package_name": "cnu.basic_project_lab.basic_project_lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmAuHzQ8DnAiqifvUygkoG1fz4i5bvpvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
