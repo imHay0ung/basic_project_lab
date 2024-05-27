@@ -13,6 +13,7 @@ class RecommendState extends State<Recommend> {
     final Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text(
           "추천",
           style: TextStyle(fontWeight: FontWeight.bold),
