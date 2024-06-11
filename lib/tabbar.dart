@@ -1,3 +1,4 @@
+import 'package:basic_project_lab/mypage.dart';
 import 'package:basic_project_lab/recommend.dart';
 import 'package:basic_project_lab/scrap.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class TabState extends State<Tabbar> with SingleTickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    controller = TabController(length: 3, vsync: this);
+    controller = TabController(length: 4, vsync: this);
   }
 
   @override
@@ -31,7 +32,7 @@ class TabState extends State<Tabbar> with SingleTickerProviderStateMixin {
     return Scaffold(
       body: TabBarView(
         controller: controller,
-        children: const [Home(), Scrap(), Recommend()],
+        children: const [Home(), Scrap(), Recommend(), MyPage()],
       ),
       bottomNavigationBar: TabBar(
         tabs: const [
@@ -43,6 +44,9 @@ class TabState extends State<Tabbar> with SingleTickerProviderStateMixin {
           ),
           Tab(
             icon: Icon(Icons.recommend),
+          ),
+          Tab(
+            icon: Icon(Icons.manage_accounts),
           )
         ],
         controller: controller,

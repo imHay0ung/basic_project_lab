@@ -10,6 +10,7 @@ class Scrap extends StatefulWidget {
 class ScrapState extends State<Scrap> {
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
@@ -33,11 +34,11 @@ class ScrapState extends State<Scrap> {
                   margin: const EdgeInsets.all(15.0),
                   child: Column(
                     children: [
-                      Image.asset("images/scrap/background.png"),
+                      Image.asset("images/scrap/1.png", width: size.width, height: 200, fit: BoxFit.fitWidth,),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          const Text("네이버 블로그 기사",
+                          const Text("등산하기",
                               style: TextStyle(fontWeight: FontWeight.bold)),
                           IconButton(
                               onPressed: () {},
@@ -55,11 +56,11 @@ class ScrapState extends State<Scrap> {
                   margin: const EdgeInsets.all(15.0),
                   child: Column(
                     children: [
-                      Image.asset("images/scrap/background.png"),
+                      Image.asset("images/scrap/2.jpg", width: size.width, height: 200, fit: BoxFit.fitWidth,),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          const Text("네이버 블로그 기사",
+                          const Text("크록스 꾸미기",
                               style: TextStyle(fontWeight: FontWeight.bold)),
                           IconButton(
                               onPressed: () {},
@@ -77,7 +78,7 @@ class ScrapState extends State<Scrap> {
                   margin: const EdgeInsets.all(15.0),
                   child: Column(
                     children: [
-                      Image.asset("images/scrap/background.png"),
+                      Image.asset("images/scrap/3.jpg", width: size.width, height: 200, fit: BoxFit.fitWidth,),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [

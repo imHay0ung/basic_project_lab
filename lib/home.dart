@@ -112,7 +112,7 @@ class HomeState extends State<Home> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.0),
                       image: const DecorationImage(
-                          image: AssetImage("images/home/1.png"),
+                          image: AssetImage("images/home/1.jpg"),
                           fit: BoxFit.cover),
                     ),
                     child: const Text("등산의 맛",
@@ -126,7 +126,7 @@ class HomeState extends State<Home> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.0),
                       image: const DecorationImage(
-                          image: AssetImage("images/home/2.png"),
+                          image: AssetImage("images/home/2.jpg"),
                           fit: BoxFit.cover),
                     ),
                     child: const Text("등산 맛있다",

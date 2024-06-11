@@ -66,11 +66,15 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - images/home/background.png
-    - images/home/1.png
-    - images/home/2.png
+    - images/home/1.jpg
+    - images/home/2.jpg
     - images/home/3.png
     - images/scrap/background.png
+    - images/scrap/1.png
+    - images/scrap/2.jpg
+    - images/scrap/3.jpg
     - images/login/background.png
+    - images/icon.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
